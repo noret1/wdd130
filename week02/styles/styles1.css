@@ -7,24 +7,28 @@ main{
     padding: 10px;
     display: block;
 }
+
 h1 {
     color:steelblue;
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 ,0, 0 , 0.2);/ * why use rgba instead of hex here */
+    border: 1px solid rgb(0 ,0, 0 , 0.2);/ * subtle border */
     padding: 1rem;
     background_color: #eee;
     color: #333;
     text-align: center;
 }
+
 aside img {
     width: 200px;
     height: auto;
 }
+
 main img {
-    width: 150;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
