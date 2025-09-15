@@ -1,22 +1,26 @@
-nav {
-    background-color: darkblue;
+
+main {
+    max-width: 840px
+}
+
+aside {
+    margin: 20px;
+    width: 300px;
+    height: auto;
+    border: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-radius: 20px;
     padding: 10px;
+    background-color: rgb(82, 102, 105);
+    color: aliceblue;
 }
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-}
-h1 {
-    color: darkblue
-}
-img {
-    width: 150
-    height auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
+
 p {
-    padding: 10px;
+    padding: 0;
+}
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
