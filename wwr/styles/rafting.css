@@ -8,9 +8,38 @@
 }
 
 header {
-    background-color: var(--primary-color);
+    width: 840px;
+    margin: 0 auto;
+  background-color: var(--accent2-color);
+   display: grid;
+   grid-template-columns: auto auto auto; 
+   align-items: center;       
+   justify-content: center;   
+   column-gap: 40px;           
+   padding: 10px 0;   
+}
+nav a {
+    color: white;
+}
+.nav-menu {
+  display: flex;
+ list-style: none
+}
+.nav-menu li {
+    flex: 1 1 auto;
+}
+.nav-menu a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
+.nav-menu a:hover {
+    color: blue;
+    text-decoration: underline;
+}
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +51,7 @@ body{
     color: var(--accent1-color);
 }
 
-header, main, footer {
+main, footer {
 width: 840px;
 margin: 0 auto;
 }
@@ -50,7 +79,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.au {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -60,8 +89,102 @@ h1 {
     background-color: var(--accent1-color);
     color: azure;
 }
+h2 {
+  top: 40px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
 
-.heor article {
+.hero article {
     float: right;
     width: 12px;
+}
+footer {
+  display: grid;
+  align-items: center;
+ background-color: var(--accent2-color);
+}
+    
+.socialmedia {
+  grid-column: 2/3;
+  margin: 1rem;
+  justify-self: end;
+}
+    
+.cright {
+    text-align: center;
+  color: #fff;
+}
+.socialmedia a {
+    text-decoration: none;
+}
+.cont2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.two {
+    height: 100px;
+}
+.cont3 {
+  display: flex;
+   justify-content: space-around;
+
+}
+/*Contact Us Styles*/
+.cu {
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: azure;
+}
+p {
+    text-align: center;
+}
+.employee-grid {
+   display: flex;
+   justify-content: space-around;
+}
+form {
+  width: 340px;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.2rem;
+  background-color: #eee;
+  display: grid;
+  align-items: center;       
+  justify-content: center;
+}
+fieldset {
+  border: 1px solid rgb(0 0 0 / 0.2);
+}
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+label {
+  text-align: center;
+ /* padding-right: 1rem;*/
+}
+input, select, textarea {
+  font-size: 1.1rem;
+}
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: rgb(2, 148, 134);
 }
