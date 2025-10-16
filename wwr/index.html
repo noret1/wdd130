@@ -4,74 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Water Rafting Adventures | Home</title>
-    <meta name="description"
-        content="Experience thrilling white water rafting adventures with expert guides. Join us for unforgettable trips on scenic rivers.">
+    <title>Whitewater Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="This is the whitewater rafting about us page">
+    <meta name="author" content="Nabukenya Phiona">
+    <link rel="stylesheet" href="styles/styles.css"><!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Winky+Rough:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="images/z_splash.jpg" alt="Rafting Site Logo" class="logo">
+        <img src="images/z-wwr-oars.png" alt="Whitewaterrafting logo">
         <nav>
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
+
     </header>
-
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <img src="images/hero-rafting.jpg" alt="Rafting through wild rapids">
-            <h1>White Water Rafting Adventures</h1>
-            <p>Join us for the adventure of a lifetime!</p>
+        <section class="hero-home">
+            <img src="images/rafting47_600-min.jpg" alt="Rafting Adventure">
+            <h1 class="hero-home-text">Experience the Thrill of the Rapids!</h1>
         </section>
-
-        <!-- Quote Section -->
-        <section class="quote">
-            <blockquote>
-                “Life is a journey, not a destination. As we travel along life's pathway, we encounter challenges,
-                obstacles, and uncertainties. But we must not permit these to divert us from our destiny. We must
-                continue on, even when the road ahead seems uncertain. We must finish strong.”
-                <br>– President Thomas S. Monson
-            </blockquote>
-        </section>
-
-        <!-- Newsletter -->
         <section class="newsletter">
-            <h2>Subscribe to Our Newsletter</h2>
+            <h2>Join Our Newsletter</h2>
             <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email Address" required>
+                <label for="newsletter-name">Name:</label>
+                <input type="text" id="newsletter-name" name="name" required>
+
+                <label for="newsletter-email">Email:</label>
+                <input type="email" id="newsletter-email" naname="email" required>
+
                 <button type="submit">Subscribe</button>
             </form>
         </section>
-
-        <!-- Call to Action -->
         <section class="cta">
             <h2>Ready for an Adventure?</h2>
-            <p>Explore our thrilling rafting trips and book your next outdoor experience today!</p>
-            <a href="trips.html" class="btn">View Trips</a>
+            <p>Check out our amazing whitewater rafting trips!</p>
+            <a class="cta-button" href="trips.html">Explore Trips</a>
         </section>
+        <h2 class="trip-title">Trip Highlights</h2>
+        <div class="grid-layout">
+            <div class="grid-item">
+                <img src="images/rafting53_600.jpg" alt="Rafting team">
+                <p>We bring people together to experience the best of nature with safety and excitement.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/rafting65_600-min.jpg" alt="Rafting gear">
+                <p>Our top-tier equipment and experienced guides ensure unforgettable adventures.</p>
+            </div>
+        </div>
+
     </main>
 
     <footer>
-        <div class="cright">
-            <p>&copy; 2025 White Water Rafting | Nabukenya Phiona</p>
-        </div>
+        <p>&copy; 2025 White Water Rafting. Nabukenya phiona/p>
         <nav class="socialmedia">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="Follow us on Facebook" width="55">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
             </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.svg" alt="Follow us on Twitter" width="55">
+            <a href="https://x.com">
+                <img src="images/twitter.png" alt="Twitter Icon">
             </a>
-            <a href="https://linkedin.com" target="_blank">
-                <img src="images/linkedin.svg" alt="Subscribe to our YouTube channel" width="55">
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
             </a>
         </nav>
+
     </footer>
 
 </body>
